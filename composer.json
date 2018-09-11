@@ -1,0 +1,12 @@
+{
+    "name": "arkadiusjonczek/laravel-dbinstall",
+    "description": "Database Install Command for Laravel.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Arkadius Jonczek",
+            "email": "arkadius@jonczek.de"
+        }
+    ],
+    "require": {}
+}
