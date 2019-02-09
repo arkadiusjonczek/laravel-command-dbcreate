@@ -1,15 +1,15 @@
 <?php
 
-namespace Laravel\Commands;
+namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
 /**
- * Create Database.
+ * Create Database Command.
  *
  * @package App\Console\Commands
  */
-class DbCreateCommand extends Command
+class DbCreate extends Command
 {
     /**
      * The name and signature of the console command.

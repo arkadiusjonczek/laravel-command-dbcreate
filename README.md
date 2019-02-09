@@ -12,7 +12,7 @@ Add the command class to your $commands array in your app/Console/Kernel.php fil
 
 ```php
 protected $commands = [
-    Laravel\Commands\DbCreate::class
+    Commands\DbCreate::class
 ];
 ``` 
 
