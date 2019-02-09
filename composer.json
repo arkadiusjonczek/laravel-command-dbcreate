@@ -1,6 +1,6 @@
 {
-    "name": "arkadiusjonczek/laravel-dbinstall",
-    "description": "Database Install Command for Laravel.",
+    "name": "arkadiusjonczek/laravel-command-dbcreate",
+    "description": "MySQL Database Create Command for Laravel.",
     "type": "library",
     "authors": [
         {
@@ -8,5 +8,12 @@
             "email": "arkadius@jonczek.de"
         }
     ],
-    "require": {}
+    "require": {
+        "laravel/framework": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Console\\Commands\\": "src/"
+        }
+    }
 }
