@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Laravel\Commands;
 
 use Illuminate\Console\Command;
 
