@@ -15,7 +15,7 @@ class DbCreateServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                DbCreate::class
+                DbCreateCommand::class
             ]);
         }
     }
