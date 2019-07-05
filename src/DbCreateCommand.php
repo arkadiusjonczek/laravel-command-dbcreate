@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Arkadiusjonczek\DbCreateCommand;
 
 use Illuminate\Console\Command;
 
@@ -9,7 +9,7 @@ use Illuminate\Console\Command;
  *
  * @package App\Console\Commands
  */
-class DbCreate extends Command
+class DbCreateCommand extends Command
 {
     /**
      * The name and signature of the console command.
