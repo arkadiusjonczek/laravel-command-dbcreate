@@ -4,17 +4,13 @@ Simple Laravel Command for your project to create the mysql database with artisa
 
 ## Install
 
+In your laravel project require the composer package with:
+
 ```bash
 composer require arkadiusjonczek/laravel-command-dbcreate
 ```
 
-Add the command class to your $commands array in your app/Console/Kernel.php file:
-
-```php
-protected $commands = [
-    Commands\DbCreate::class
-];
-``` 
+After that the command will automatically be registered in your laravel project.
 
 ## Usage
 

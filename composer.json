@@ -15,5 +15,12 @@
         "psr-4": {
             "App\\Console\\Commands\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "App\\Console\\Commands\\DbCreateServiceProvider"
+            ]
+        }
     }
 }
